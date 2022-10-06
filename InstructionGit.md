@@ -23,3 +23,8 @@
 Git checkout -b|-B <new-branch> [<start-point>]
 Specifying -b causes a new branch to be created as if git-branch[1] were called and then checked out. In this case you can use the --track or --no-track options, which will be passed to git branch. As a convenience, --track without -b implies branch creation; see the description of --track below.
 If -B is given, <new-branch> is created if it doesn’t exist; otherwise, it is reset. This is the transactional equivalent of
+## 7. Git checkout master ##
+Команду стоит использовать, если Вы хотите вернуться к актуальному состоянию  и продолжить работу. 
+## 8. Git diff ##
+Сокращенно от difference. Команда, которая позволит узнать разницу между текущим файлом и закоммиченным файлом. 
+![скрин примера](gitdiff.png)
